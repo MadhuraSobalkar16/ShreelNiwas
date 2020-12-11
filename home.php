@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+
+
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -29,6 +31,14 @@
     })();
     </script>
     <!--End of Tawk.to Script--> 
+    <style>
+   .owner{
+    border-radius: 5%;
+    height: 200px;
+    width: 295px;
+   
+   }
+    </style>
 </head>
 
 <body>
@@ -41,101 +51,9 @@
 
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
-        <!-- Navbar Area -->
-        <div class="palatin-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="palatinNav">
-
-                        <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- close btn -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="rooms.html">Rooms</a></li>
-                                            <li><a href="blog.html">News</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Mega Menu</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-
-                                <!-- Button -->
-                                <div class="menu-btn">
-                                    <a href="#" class="btn palatin-btn">Make a Reservation</a>
-                                </div>
-
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
+    <?php 
+        include 'include/menubar.php.'; 
+    ?>
     </header>
     <!-- ##### Header Area End ##### -->
 
@@ -298,18 +216,18 @@
                     <div class="about-thumbnail homepage mb-100">
                         <!-- First Img -->
                         <div class="first-img wow fadeInUp" data-wow-delay="100ms">
-                            <img src="img/bg-img/5.jpg" alt="">
+                            <img src="img/bg-img/card7.jpg" alt="">
                         </div>
                         <!-- Second Img -->
                         <div class="second-img wow fadeInUp" data-wow-delay="300ms">
-                            <img src="img/bg-img/6.jpg" alt="">
+                            <img src="img/bg-img/card5.jpg" alt="">
                         </div>
                         <!-- Third Img-->
                         <div class="third-img wow fadeInUp" data-wow-delay="500ms">
-                            <img src="img/bg-img/7.jpg" alt="">
+                            <img src="img/bg-img/card6.jpg" alt="">
                         </div>
                     </div>
-                </div>
+                </div>+
             </div>
         </div>
     </section>
@@ -439,19 +357,23 @@
             <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
                 <div class="line-"></div>
                 <h2>Contact Info</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                <div class="row">
+                <img src="img/core-img/owner2.jpg" alt=""  class="owner" >
+                </div>
+                <br>   
+                <div class="row"> <h5>Mr. Ulhas Haldankar</h5> </div>    
+                <p    style= "margin-left: 150px";
+>Owner, Enterprneur</p>
+                     
+                        
             </div>
-            <h4 class="wow fadeInUp" data-wow-delay="300ms">Los Angeles 1481 Creekside Lane Avila Beach, CA 931</h4>
-            <h5 class="wow fadeInUp" data-wow-delay="400ms">+53 345 7953 32453</h5>
-            <h5 class="wow fadeInUp" data-wow-delay="500ms">yourmail@gmail.com</h5>
+            <h4 class="wow fadeInUp" data-wow-delay="300ms">Shreel Nivas M.T.D.C Approved</h4>
+            <h5 class="wow fadeInUp" data-wow-delay="400ms">+9404992657</h5>
+            <h5 class="wow fadeInUp" data-wow-delay="500ms">ulhashaldankar45@gmail.com</h5>
             <!-- Social Info -->
             <div class="social-info mt-50 wow fadeInUp" data-wow-delay="600ms">
-                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Lets connect</a>
+               
             </div>
         </div>
     </section>
@@ -459,48 +381,9 @@
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-lg-5">
-                    <div class="footer-widget-area mt-50">
-                        <a href="#" class="d-block mb-5"><img src="img/core-img/logo.png" alt=""></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5">Find us on the map</h6>
-                        <!-- <img src="img/bg-img/footer-map.png" alt=""> -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.140089151112!2d73.22060511487585!3d17.35699078809691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be9f7c1a134b6ef%3A0x6e6293edffc1063b!2sShreel%20Nivas!5e0!3m2!1sen!2sin!4v1607624146185!5m2!1sen!2sin" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5">Subscribe to our newsletter</h6>
-                        <form action="#" method="post" class="subscribe-form">
-                            <input type="email" name="subscribe-email" id="subscribeemail" placeholder="Your E-mail">
-                            <button type="submit">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- Copywrite Text -->
-                <div class="col-12">
-                    <div class="copywrite-text mt-30">
-                        <p><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed  <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Institute of Computer Science,Pune</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-            </div>
-           
-        </div>
+    <?php 
+        include 'include/footer.php.'; 
+    ?>
     </footer>
     <!-- ##### Footer Area End ##### -->
 

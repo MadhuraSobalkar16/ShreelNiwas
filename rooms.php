@@ -30,105 +30,15 @@
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
         <!-- Navbar Area -->
-        <div class="palatin-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="palatinNav">
-
-                        <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- close btn -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="rooms.html">Rooms</a></li>
-                                            <li><a href="blog.html">News</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Mega Menu</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-
-                                <!-- Button -->
-                                <div class="menu-btn">
-                                    <a href="#" class="btn palatin-btn">Make a Reservation</a>
-                                </div>
-
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
+        <?php 
+        include 'include/menubar.php.'; 
+    ?>
     </header>
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcumb Area Start ##### -->
-    <section class="breadcumb-area bg-img d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/bg-6.jpg);">
+    <section class="breadcumb-area bg-img d-flex align-items-center justify-content-center"
+        style="background-image: url(img/bg-img/bg-6.jpg);">
         <div class="bradcumbContent">
             <h2>Rooms</h2>
         </div>
@@ -146,13 +56,13 @@
                             <div class="form-group">
                                 <label for="select1">Check In</label>
                                 <select class="form-control" id="select1">
-                                  <option>19 June</option>
-                                  <option>20 June</option>
-                                  <option>21 June</option>
-                                  <option>22 June</option>
-                                  <option>23 June</option>
-                                  <option>24 June</option>
-                                  <option>25 June</option>
+                                    <option>19 June</option>
+                                    <option>20 June</option>
+                                    <option>21 June</option>
+                                    <option>22 June</option>
+                                    <option>23 June</option>
+                                    <option>24 June</option>
+                                    <option>25 June</option>
                                 </select>
                             </div>
 
@@ -160,14 +70,14 @@
                             <div class="form-group">
                                 <label for="select2">Check Out</label>
                                 <select class="form-control" id="select2">
-                                  <option>20 June</option>
-                                  <option>21 June</option>
-                                  <option>22 June</option>
-                                  <option>23 June</option>
-                                  <option>24 June</option>
-                                  <option>25 June</option>
-                                  <option>26 June</option>
-                                  <option>27 June</option>
+                                    <option>20 June</option>
+                                    <option>21 June</option>
+                                    <option>22 June</option>
+                                    <option>23 June</option>
+                                    <option>24 June</option>
+                                    <option>25 June</option>
+                                    <option>26 June</option>
+                                    <option>27 June</option>
                                 </select>
                             </div>
 
@@ -175,11 +85,11 @@
                             <div class="form-group">
                                 <label for="select3">Adults</label>
                                 <select class="form-control" id="select3">
-                                  <option>02</option>
-                                  <option>03</option>
-                                  <option>04</option>
-                                  <option>05</option>
-                                  <option>06</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
+                                    <option>06</option>
                                 </select>
                             </div>
 
@@ -187,11 +97,11 @@
                             <div class="form-group">
                                 <label for="select4">Childrens</label>
                                 <select class="form-control" id="select4">
-                                  <option>01</option>
-                                  <option>02</option>
-                                  <option>03</option>
-                                  <option>04</option>
-                                  <option>05</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
                                 </select>
                             </div>
 
@@ -213,7 +123,8 @@
                     <div class="section-heading text-center">
                         <div class="line-"></div>
                         <h2>Choose a room</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris
+                            sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
                     </div>
                 </div>
             </div>
@@ -231,7 +142,8 @@
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Deluxe Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus
+                                mauris sceleri sque.</p>
                         </div>
                         <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
@@ -249,7 +161,8 @@
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Double Suite</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus
+                                mauris sceleri sque.</p>
                         </div>
                         <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
@@ -267,7 +180,8 @@
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Single Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus
+                                mauris sceleri sque.</p>
                         </div>
                         <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
@@ -285,7 +199,8 @@
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Deluxe Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus
+                                mauris sceleri sque.</p>
                         </div>
                         <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
@@ -303,7 +218,8 @@
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Double Suite</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus
+                                mauris sceleri sque.</p>
                         </div>
                         <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
@@ -321,7 +237,8 @@
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Single Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus
+                                mauris sceleri sque.</p>
                         </div>
                         <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
@@ -339,7 +256,8 @@
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Deluxe Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus
+                                mauris sceleri sque.</p>
                         </div>
                         <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
@@ -357,7 +275,8 @@
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Double Suite</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus
+                                mauris sceleri sque.</p>
                         </div>
                         <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
@@ -375,7 +294,8 @@
                         <div class="rooms-text">
                             <div class="line"></div>
                             <h4>Single Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus
+                                mauris sceleri sque.</p>
                         </div>
                         <!-- Book Room -->
                         <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
@@ -402,46 +322,9 @@
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-lg-5">
-                    <div class="footer-widget-area mt-50">
-                        <a href="#" class="d-block mb-5"><img src="img/core-img/logo.png" alt=""></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5">Find us on the map</h6>
-                        <img src="img/bg-img/footer-map.png" alt="">
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5">Subscribe to our newsletter</h6>
-                        <form action="#" method="post" class="subscribe-form">
-                            <input type="email" name="subscribe-email" id="subscribeemail" placeholder="Your E-mail">
-                            <button type="submit">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- Copywrite Text -->
-                <div class="col-12">
-                    <div class="copywrite-text mt-30">
-                        <p><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <?php 
+        include 'include/footer.php.'; 
+    ?>
     </footer>
     <!-- ##### Footer Area End ##### -->
 
