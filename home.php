@@ -52,7 +52,7 @@
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
     <?php 
-        include 'menubar.php.'; 
+        include './menubar.php.'; 
     ?>
     </header>
     <!-- ##### Header Area End ##### -->
