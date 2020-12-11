@@ -1,6 +1,5 @@
 <div class="container">
             <div class="row">
-
                 <!-- Footer Widget Area -->
                 <div class="col-12 col-lg-5">
                     <div class="footer-widget-area mt-50">
