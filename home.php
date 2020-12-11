@@ -52,7 +52,7 @@
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
     <?php 
-        include 'include/menubar.php.'; 
+        include 'menubar.php.'; 
     ?>
     </header>
     <!-- ##### Header Area End ##### -->
@@ -382,7 +382,7 @@
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
     <?php 
-        include 'include/footer.php.'; 
+        include 'footer.php.'; 
     ?>
     </footer>
     <!-- ##### Footer Area End ##### -->
