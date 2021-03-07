@@ -203,7 +203,7 @@
                             <div class="line-"></div>
                             <h2>A place to remember</h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+                        <p>test</p>
                         <div class="about-key-text">
                             <h6><span class="fa fa-check"></span> Donec malesuada lorem maximus mauris sceleri</h6>
                             <h6><span class="fa fa-check"></span> Malesuada lorem maximus mauris sceleri</h6>
